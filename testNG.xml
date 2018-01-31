@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+   <listeners>
+        <listener class-name="utils.Listeners.TestListener"/>
+        <listener class-name="utils.Listeners.AnnotationTransformer"/>
+    </listeners>
+
+    <test name="LoginTest">
+        <classes>
+            <class name="tests.LoginTests"/>
+            <class name="tests.NegativeTest"/>
+       		<parameter name="userName" value="Ig4RCiYHAQcCWl1fWisyAw0GD0UPAA4=" />
+       		<parameter name="Password" value="Ig5AGTRKJSIrKl1dUA==" />       		
+        </classes>
+    </test>
+</suite>
