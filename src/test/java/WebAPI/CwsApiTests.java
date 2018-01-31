@@ -13,8 +13,8 @@ import com.jayway.restassured.response.Response;
 import com.jayway.restassured.response.ValidatableResponse;
 import com.jayway.restassured.specification.RequestSpecification;
 
-import org.json.JSONArray;
-import org.json.JSONException;
+/*import org.json.JSONArray;
+import org.json.JSONException;*/
 import org.apache.commons.httpclient.HttpClient;
 import org.apache.http.client.ClientProtocolException;
 
@@ -22,8 +22,8 @@ public class CwsApiTests extends CwsApiHttpClient{
 
 	String url="http://wof-extsvc-stg.corpstg1.jmfamily.com/ExternalServices/ExternalServices.svc";
 			
-	@Test
-	public void 
+	//@Test
+	//public void 
 	
 	
 }
