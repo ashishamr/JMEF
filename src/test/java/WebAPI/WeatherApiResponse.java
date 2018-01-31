@@ -12,14 +12,13 @@ import org.apache.http.impl.client.DefaultHttpClient;
 
 public class WeatherApiResponse {
 	
-	private final String USER_AGENT="Mozilla/5.0";
+	@SuppressWarnings("deprecation")
 	public String GetResponse() throws ClientProtocolException, IOException
 	{
 		StringBuffer result=new StringBuffer();
 		HttpClient client=new DefaultHttpClient();
-		String url="http://api.openweathermap.org/data/2.5/weather?q=London";
+		String url="http://wof-extsvc-stg.corpstg1.jmfamily.com/ExternalServices/ExternalServices.svc";
 		HttpGet request=new HttpGet(url);
-		request.addHeader("User-Agent",USER_AGENT);
 		HttpResponse response=client.execute(request);
 		int responseCode=response.getStatusLine().getStatusCode();
 		System.out.println("Response Code: " + responseCode);
