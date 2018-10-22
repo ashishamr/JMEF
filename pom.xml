@@ -38,7 +38,7 @@
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
-			<version>6.11</version>
+			<version>6.14.2</version>
 		</dependency>
 
 		<dependency>
@@ -83,7 +83,13 @@
 			<artifactId>httpclient</artifactId>
 			<version>4.5.5</version>
 		</dependency>
-
+		
+		<!-- Base64 -->
+		<dependency>
+   			<groupId>net.iharder</groupId>
+   			<artifactId>base64</artifactId>
+   			<version>2.3.8</version>
+		</dependency>
 
 	</dependencies>
 
