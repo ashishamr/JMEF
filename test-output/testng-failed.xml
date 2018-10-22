@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="utils.Listeners.TestListener"/>
     <listener class-name="utils.Listeners.AnnotationTransformer"/>
   </listeners>
-  <test name="LoginTest(failed)">
+  <test thread-count="5" name="LoginTest(failed)">
     <parameter name="userName" value="Ig4RCiYHAQcCWl1fWisyAw0GD0UPAA4="/>
     <parameter name="Password" value="Ig5AGTRKJSIrKl1dUA=="/>
     <classes>

@@ -1,7 +1,8 @@
 package utils.others;
 
-import sun.misc.BASE64Decoder;
-import sun.misc.BASE64Encoder;
+/*import sun.misc.BASE64Decoder;
+import sun.misc.BASE64Encoder;*/
+import org.apache.commons.codec.binary.Base64; 
 
 public final class StringEncrypt {
 	
@@ -34,8 +35,9 @@ public final class StringEncrypt {
 		    }
 		    mesg=null; 
 		    keys=null;
-		    return new String(new BASE64Encoder().encodeBuffer(new String(newmsg).getBytes()));
-		    
+		    ////return new String(new BASE64Encoder().encodeBuffer(new String(newmsg).getBytes()));
+		    return new String(Base64.encodeBase64(new String(newmsg).getBytes()));   
+			    
 		} catch (Exception e) {
 			e.printStackTrace();
 			return null;
@@ -55,9 +57,10 @@ public final class StringEncrypt {
 	public static String decryptXOR(String message, String key){
 		try {
 	      if (message==null || key==null ) return null;
-	      BASE64Decoder decoder = new BASE64Decoder();
-	      char[] keys=key.toCharArray();
-	      char[] mesg=new String(decoder.decodeBuffer(message)).toCharArray();
+	      ////BASE64Decoder decoder = new BASE64Decoder();
+	      char[] keys=key.toCharArray();	
+	      ////char[] mesg=new String(decoder.decodeBuffer(message)).toCharArray();
+	      char[] mesg=new String(Base64.decodeBase64(message.getBytes())).toCharArray();
 
 	      int ml=mesg.length;
 	      int kl=keys.length;
