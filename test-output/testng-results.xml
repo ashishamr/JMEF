@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-10-22T16:12:02Z" name="Suite" finished-at="2018-10-22T16:12:33Z" duration-ms="30600">
+  <suite started-at="2018-10-22T16:39:10Z" name="Suite" finished-at="2018-10-22T16:39:40Z" duration-ms="30167">
     <groups>
     </groups>
-    <test started-at="2018-10-22T16:12:02Z" name="LoginTest" finished-at="2018-10-22T16:12:33Z" duration-ms="30600">
+    <test started-at="2018-10-22T16:39:10Z" name="LoginTest" finished-at="2018-10-22T16:39:40Z" duration-ms="30167">
       <class name="tests.LoginTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTests@1329eff]" started-at="2018-10-22T16:12:02Z" name="setup" finished-at="2018-10-22T16:12:07Z" duration-ms="4973" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTests@1329eff]" started-at="2018-10-22T16:39:10Z" name="setup" finished-at="2018-10-22T16:39:14Z" duration-ms="4339" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validLoginTest_ValidUserName_ValidPassword(java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTests@1329eff]" started-at="2018-10-22T16:12:07Z" name="validLoginTest_ValidUserName_ValidPassword" description="Valid Login Scenario with Valid username and password." finished-at="2018-10-22T16:12:11Z" duration-ms="3837" status="PASS">
+        <test-method signature="validLoginTest_ValidUserName_ValidPassword(java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTests@1329eff]" started-at="2018-10-22T16:39:14Z" name="validLoginTest_ValidUserName_ValidPassword" description="Valid Login Scenario with Valid username and password." finished-at="2018-10-22T16:39:18Z" duration-ms="3745" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,17 +27,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest_ValidUserName_ValidPassword -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTests@1329eff]" started-at="2018-10-22T16:12:11Z" name="teardown" finished-at="2018-10-22T16:12:13Z" duration-ms="2613" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTests@1329eff]" started-at="2018-10-22T16:39:18Z" name="teardown" finished-at="2018-10-22T16:39:20Z" duration-ms="2626" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- tests.LoginTests -->
       <class name="tests.NegativeTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.NegativeTest@6497b078]" started-at="2018-10-22T16:12:13Z" name="setup" finished-at="2018-10-22T16:12:17Z" duration-ms="3148" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.NegativeTest@6497b078]" started-at="2018-10-22T16:39:20Z" name="setup" finished-at="2018-10-22T16:39:24Z" duration-ms="3116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="invalidLoginTest_EmptyUserEmptyPassword()[pri:1, instance:tests.NegativeTest@6497b078]" started-at="2018-10-22T16:12:17Z" name="invalidLoginTest_EmptyUserEmptyPassword" description="Invalid Login Scenario with empty username and password." finished-at="2018-10-22T16:12:30Z" duration-ms="12974" status="FAIL">
+        <test-method signature="invalidLoginTest_EmptyUserEmptyPassword()[pri:1, instance:tests.NegativeTest@6497b078]" started-at="2018-10-22T16:39:24Z" name="invalidLoginTest_EmptyUserEmptyPassword" description="Invalid Login Scenario with empty username and password." finished-at="2018-10-22T16:39:37Z" duration-ms="13106" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[contains(@aria-label,'Enter your password')][@autocomplete='current-password']"}
@@ -45,11 +45,11 @@
   (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
 System info: host: 'LAPTOP-84SRGSJC', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\NARASI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
-Session ID: 81f17f25ca91725fe85493152781bf07
+Session ID: 569ad5a36061690a682962305c28e258
 *** Element info: {Using=xpath, value=//input[contains(@aria-label,'Enter your password')][@autocomplete='current-password']}]]>
             </message>
             <full-stacktrace>
@@ -58,11 +58,11 @@ Session ID: 81f17f25ca91725fe85493152781bf07
   (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
 System info: host: 'LAPTOP-84SRGSJC', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\NARASI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
-Session ID: 81f17f25ca91725fe85493152781bf07
+Session ID: 569ad5a36061690a682962305c28e258
 *** Element info: {Using=xpath, value=//input[contains(@aria-label,'Enter your password')][@autocomplete='current-password']}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -75,11 +75,11 @@ at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttp
 at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
 at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
 at pages.BasePage.writeText(BasePage.java:40)
 at pages.LoginPage.loginToGmail(LoginPage.java:40)
 at tests.NegativeTest.invalidLoginTest_EmptyUserEmptyPassword(NegativeTest.java:40)
@@ -114,7 +114,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest_EmptyUserEmptyPassword -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.NegativeTest@6497b078]" started-at="2018-10-22T16:12:30Z" name="teardown" finished-at="2018-10-22T16:12:33Z" duration-ms="2606" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.NegativeTest@6497b078]" started-at="2018-10-22T16:39:37Z" name="teardown" finished-at="2018-10-22T16:39:40Z" duration-ms="2880" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
