@@ -9,6 +9,10 @@
 
 	<name>JMF-Automation</name>
 	<url>http://maven.apache.org</url>
+	
+	<properties>
+    	<suiteXmlFile>src/test/resources/Default-Suite.xml</suiteXmlFile>
+  	</properties>
 
 	<dependencies>
 
